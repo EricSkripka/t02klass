@@ -13,8 +13,7 @@ public class Silinder{
 		Scanner input = new Scanner(System.in);
 		System.out.println("Sisesta silindri sisu tihedus(vesi=1, betoon=2.2, teras=7.8): ");
 		p = input.nextDouble();
-		if(tihedus != 1 && tihedus!= 2.2 && tihedus != 7.8){throw new RuntimeException("Sobimatu pikkus");}
-
+		if(p != 1 && tihedus!= 2.2 && tihedus != 7.8){throw new RuntimeException("Sobimatu pikkus");}
 		
 	}
 	
